@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="row justify-content-around">
         <div class="col-8 col-md-5">
-          <h5 class="title">dingdong</h5>
+          <h5 class="title">Ding Dong</h5>
           <p class="description">This is placeholder text. Your web app description goes here.</p>
         </div>
         <div class="col-2">
@@ -33,7 +33,7 @@ export default {
 
 <style scoped>
 .footer {
-  background-color: #1d1d1d;
+  background-color: fuchsia;
   padding-top: 2rem;
   padding-bottom: 4rem;
 }

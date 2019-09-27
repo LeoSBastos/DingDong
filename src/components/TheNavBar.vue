@@ -1,15 +1,15 @@
 ﻿//TODO Web Template Studio: Add a new link in the NavBar for your page here.
 // A skip link is included as an accesibility best practice. For more information visit https://www.w3.org/WAI/WCAG21/Techniques/general/G1.
 <template>
-  <div>
+  <div class="psi">
     <div class="skipLink">
       <a href="#mainContent">Skip to Main Content</a>
     </div>
-    <b-nav class="navbar navbar-expand-sm navbar-light border-bottom justify-content-between">
-      <a class="navbar-brand" href="/">dingdong</a>
+    <b-nav class="navbar navbar-expand-sm navbar-dark justify-content-between">
+      <a class="navbar-brand" href="/">Ding Dong</a>
       <div class="navbar-nav">
-        <b-nav-item class="nav-item nav-link active" to="/Blank">Blank</b-nav-item>
-        <b-nav-item class="nav-item nav-link active" to="/Blank2">Blank2</b-nav-item>
+        <b-nav-item class="nav-item nav-link active" to="/Pedido">Pedido</b-nav-item>
+        <b-nav-item class="nav-item nav-link active" to="/Estoque">Estoque</b-nav-item>
       </div>
     </b-nav>
   </div>
@@ -27,7 +27,12 @@ export default {
   left: -100px;
   top: -100px;
 }
-
+.psi {
+  background-color: fuchsia;
+}
+.naviado {
+  color: "#FFF" !important;
+}
 .skipLink a:focus {
   position: fixed;
   z-index: 1000;

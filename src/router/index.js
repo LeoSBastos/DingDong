@@ -1,17 +1,17 @@
 ﻿import Vue from "vue";
 import VueRouter from "vue-router";
 
-import Blank from "@/views/Blank.vue";
-import Blank2 from "@/views/Blank2.vue";
+import Pedido from "@/views/Pedido.vue";
+import Estoque from "@/views/Estoque.vue";
 Vue.use(VueRouter);
 
 // TODO Web Template Studio: Add routes for your new pages here.
 export default new VueRouter({
-  mode: "history",
-  routes: [
-    { path: "/Blank2", component: Blank2 },
-    { path: "/Blank", component: Blank },
+    mode: "history",
+    routes: [
+        { path: "/Estoque", component: Estoque },
+        { path: "/Pedido", component: Pedido },
 
-    { path:"/", redirect: "/Blank" }
-  ]
+        { path: "/", redirect: "/Pedido" }
+    ]
 });
